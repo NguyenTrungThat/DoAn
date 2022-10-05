@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cửu hàng rau củ TT</title>
+    <title>Cửa hàng rau củ TT</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -25,9 +25,9 @@
     <a href="index.html" class="logo"> <i class="fas fa-shopping-basket"></i> Rau Củ Tươi </a>
 
     <nav class="navbar">
-        <a style="color: #ff7800;" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="#dac_trung">Đặc trưng</a>
-        <a href="cacsanpham.html">Các sản phẩm</a>
+        <a style="color: #ff7800;" href="#cac_san_pham">Các sản phẩm</a>
         <a href="#danh_muc">danh mục</a>
         <a href="#review">review</a>
         <a href="#blogs">blogs</a>
@@ -49,7 +49,34 @@
     <div class="shopping">
         <div class="shopping-cart">
                 <div class="announce">Giỏ Hàng</div>
-                
+                <!-- <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="image/cart-img-1.png" alt="">
+                    <div class="content">
+                        <h3>watermelon</h3>
+                        <span class="price">$4.99/-</span>
+                        <input class="quantity" type="number" value="1" min="1">
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="image/cart-img-2.png" alt="">
+                    <div class="content">
+                        <h3>onion</h3>
+                        <span class="price">$4.99/-</span>
+                        <input class="quantity" type="number" value="1" min="1">
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="image/cart-img-3.png" alt="">
+                    <div class="content">
+                        <h3>chicken</h3>
+                        <span class="price">$4.99/-</span>
+                        <input class="quantity" type="number" value="1" min="1">
+                    </div>
+                </div>
+                -->
         </div>
         <div class="payment">
              <div class="total">
@@ -70,53 +97,9 @@
 
 </header>
 
-<!-- header section ends -->
+ 
 
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="content">
-        <h3>Sản phẩm tươi và <span>Hữu Cơ</span> cho bạn</h3>
-        <p>Sản phẩm hữu cơ là loại thực phẩm rất tốt cho sức khỏe của bạn và gia đình bạn.</p>
-        <a href="#" class="btn">Mua sắm ngay bây giờ</a>
-        <h6 id="sale"></h6>
-    </div>
-
-</section>
-
-<!-- home section ends -->
-
-<!-- features section starts  -->
-
-<section class="features" id="features">
-
-    <h1 class="heading"> Lí do<span> bạn nên chọn chúng tôi</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="image/feature-img-1.png" alt="">
-            <h3>Tươi và Hữu cơ</h3>
-            <p>Tươi ngon và 100% tù thiên nhiên!</p>
-            <a href="#" class="btn">Đọc thêm</a>
-        </div>
-
-        <div class="box">
-            <img src="image/feature-img-2.png" alt="">
-            <h3>Giao hàng miễn phí</h3>
-            <p>Giao hàng nhanh chóng và hoàn toàn miễn phí!</p>
-            <a href="#" class="btn">Đọc thêm</a>
-        </div>
-
-        <div class="box">
-            <img src="image/feature-img-3.png" alt="">
-            <h3>Thanh toán dễ dàng</h3>
-            <p>Đa dạng hình thức thanh toán để bạn dễ dàng mua sắm!</p>
-            <a href="#" class="btn">Đọc thêm</a>
-        </div>
-
-    </div>
+   
 
 </section>
 
@@ -124,7 +107,140 @@
 
 <!-- products section starts  -->
 
+<section class="products" id="products">
 
+    <h1 class="heading" style="margin-top: 70px;"> sản phẩm <span>của chúng tôi</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/product-1.png" alt="">
+                <h3>cam tươi</h3>
+                <div class="price"> 4.99 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-2.png" alt="">
+                <h3>hành tươi</h3>
+                <div class="price"> 5.99 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-3.png" alt="">
+                <h3>thịt tươi sống</h3>
+                <div class="price"> 6.99 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>bắp cải tươi</h3>
+                <div class="price"> 2.99 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/product-5.png" alt="">
+                <h3>khoai tây tươi</h3>
+                <div class="price"> 7.98 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-6.png" alt="">
+                <h3>bơ tươi</h3>
+                <div class="price"> 10.09 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-7.png" alt="">
+                <h3>carrot tươi</h3>
+                <div class="price"> 12.89 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-8.png" alt="">
+                <h3>chanh xanh</h3>
+                <div class="price"> 10.99 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" id="addProduct" class="btn">thêm vào giỏ hàng</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
 
 <!-- products section ends -->
 
@@ -338,7 +454,9 @@
 
     </div>
 
-    <div class="credit"> created by <a style="color: #ff7800;" href="https://www.facebook.com/nguyentrungthat1609">Trung Thật</a>| all rights reserved </div>
+    <div class="credit"> created by <span><a href="https://www.facebook.com/nguyentrungthat1609">Trung Thật</a> </span> | all rights reserved </div>
+
+</section>
 
 </section>
 
