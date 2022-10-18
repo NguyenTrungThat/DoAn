@@ -311,8 +311,8 @@ section{
     -webkit-appearance: none;
   } */
 
-.header .shopping .total{
-    font-size: 2.5rem;
+.header .shopping .tongcong{
+    font-size: 16px;
     padding:1rem 0;
     text-align: center;
     color:var(--black);
@@ -803,10 +803,10 @@ section{
 }
 
 .about{
-    width: 60%;
+    width: 80%;
     color: #000;
     background-color: #fff;
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: 20px;
     margin-bottom: 20px;
     border-color: #000;
