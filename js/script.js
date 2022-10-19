@@ -216,7 +216,7 @@ setInterval(function() {
     if(sc1< 10){
       sc1 = `0${sc1}`
     }
-    
+
     
     document.getElementById('sale').innerHTML = `Flash-Sale: ${hr1}:${mn1}:${sc1}`
   
